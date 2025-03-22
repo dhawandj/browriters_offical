@@ -25,20 +25,20 @@ import { Head } from '@inertiajs/vue3';
              <p class=" font-semibold text-gray-500 mb-6">Don't hesitate to contact us whether you have a suggestion on our improvement, a complain to discuss or an issue to solve.</p>
 
              <div class="grid grid-cols-2 gap-2 p-1">
-                <div class="bg-white h-36 hover:opacity-35  text-black rounded-3xl flex flex-col  gap-1 items-center  justify-center">
+                <a  href="tel:8050859436" class="bg-white h-36 hover:opacity-35  text-black rounded-3xl flex flex-col  gap-1 items-center  justify-center">
                     <div class="size-14  text-white rounded-2xl grid place-content-center bg-secondaryAlt"><Icon icon="solar:phone-linear" width="34" height="34" /></div>
                     <p class="font-bold text-xl">Call Us</p>
                     <p class="text-xs text-center text-secondary ">Our team is on the line </p>
                     <p class="text-xs text-center  font-semibold">Mon-Sun . 24/7 </p>
 
-                </div>
-                <div class="bg-white h-36 hover:opacity-35  text-black rounded-3xl flex flex-col  gap-1 items-center  justify-center">
+                </a>
+                <a href="https://wa.me/8050859436?text=Hi%20for%20BroWriters" target="_blank"  class="bg-white h-36 hover:opacity-35  text-black rounded-3xl flex flex-col  gap-1 items-center  justify-center">
                     <div class="size-14  text-white rounded-2xl grid place-content-center bg-secondaryAlt"><Icon icon="humbleicons:chat" width="34" height="34" /></div>
                     <p class="font-bold text-xl">Chat Us</p>
                     <p class="text-xs text-center text-secondary ">Our team is on the line </p>
                     <p class="text-xs text-center  font-semibold">Mon-Sun . 24/7 </p>
 
-                </div>
+                </a>
              </div>
              <div class="space-y-5">
                  <h1 class="mt-5">Contact us in Social Media</h1>
@@ -69,33 +69,7 @@ import { Head } from '@inertiajs/vue3';
                 </div>
             </div>
             <!-- contact us option -->
-            <div class="flex items-center justify-between rounded-2xl bg-secondaryAlt p-3">
-                <div class="flex items-center gap-2">
-                    <div class="grid size-10 place-items-center rounded-full border bg-white">
-                        <Icon
-                            class="text-secondary"
-                            icon="mdi:user"
-                            width="30"
-                            height="30"
-                        />
-                    </div>
-                    <div class="text-sm">
-                        <p class="font-semibold">Contact us</p>
-                        <p class="text-textPrimary">email,phone</p>
-                    </div>
-                </div>
 
-                <div
-                    class="grid size-10 place-items-center rounded-full bg-background"
-                >
-                    <Icon
-                        class="text-white"
-                        icon="lucide:share"
-                        width="30"
-                        height="30"
-                    />
-                </div>
-            </div>
         </div>
         </div>
 

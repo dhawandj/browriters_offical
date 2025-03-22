@@ -11,8 +11,8 @@ import 'swiper/css/navigation';
 // Import required modules
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 
-function goLink() {
-    router.get(route('billing',{book:'observation'}))
+function goLink(urlname,param=null) {
+    router.get(route(urlname,param))
 }
 
 </script>
@@ -32,10 +32,10 @@ function goLink() {
       :modules="[Autoplay, Pagination, Navigation]"
       class="mySwiper text-black p-2  h-44 sm:h-64 rounded-xl"
     >
-      <swiper-slide> <img src="http://srv753447.hstgr.cloud/storage/uploads2/ad1.png" alt=""> </swiper-slide>
-      <swiper-slide> <img src="http://srv753447.hstgr.cloud/storage/uploads2/banner11.png" alt=""> </swiper-slide>
-      <swiper-slide> <img src="http://srv753447.hstgr.cloud/storage/uploads2/banner9.png" alt=""> </swiper-slide>
-      <swiper-slide> <img src="http://srv753447.hstgr.cloud/storage/uploads2/banner10.png" alt=""> </swiper-slide>
+      <swiper-slide @click="goLink('billing','assignment')" > <img src="http://srv753447.hstgr.cloud/storage/uploads2/ad1.png" alt=""> </swiper-slide>
+      <swiper-slide @click="goLink('billing','mixed')" > <img src="http://srv753447.hstgr.cloud/storage/uploads2/banner11.png" alt=""> </swiper-slide>
+      <swiper-slide @click="goLink('billing','record')"> <img src="http://srv753447.hstgr.cloud/storage/uploads2/banner9.png" alt=""> </swiper-slide>
+      <swiper-slide @click="goLink('jobs')"> <img src="http://srv753447.hstgr.cloud/storage/uploads2/banner10.png" alt=""> </swiper-slide>
 
     </swiper>
   </template>

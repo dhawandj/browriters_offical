@@ -134,7 +134,7 @@ const t_options = ref(false);
     >
         <div class="space-y-5">
             <!-- chat option -->
-            <div class="flex items-center justify-between rounded-2xl bg-secondaryAlt p-3">
+            <a  href="https://wa.me/8050859436?text=Hi%20for%20BroWriters" target="_blank"  class="flex items-center justify-between rounded-2xl bg-secondaryAlt p-3">
                 <div class="flex items-center gap-2">
                     <div
                         class="grid size-10 place-items-center rounded-full border bg-white"
@@ -162,7 +162,7 @@ const t_options = ref(false);
                         height="30"
                     />
                 </div>
-            </div>
+            </a>
             <!-- contact us option -->
              <Link  :href="route('p.index',{comp:'ContactUs'})"  class="flex items-center justify-between rounded-2xl bg-secondaryAlt p-3 hover:opacity-35">
                 <div class="flex items-center gap-2">
