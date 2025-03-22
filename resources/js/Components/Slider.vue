@@ -11,21 +11,126 @@ import MySwiper from './MySwiper.vue';
     </div>
     <div class="slider">
       <div class="slide-track space-x-5">
-          <div class="slide"><img src="http://srv753447.hstgr.cloud/storage/uploads2/banner2.png" alt="Image 3"></div>
-          <div class="slide"><div class="border w-full h-full flex">
-            <div class="h-full w-full  bg-green-400">
-                <img src="http://srv753447.hstgr.cloud/storage/uploads2/banner2.png" alt="">
+          <div class="slide">
+            <div class=" border rounded-lg border-secondary h-full flex">
+                    <div class="h-full w-1/2 bg-red-5 shrink-0">
+                        <img class="" src="http://srv753447.hstgr.cloud/storage/uploads2/c1.jpg" alt="Image 1">
+                    </div>
+                    <div class="text-white p-2 " >
+                        <h1 class="font-semibold capitalize">chea****</h1>
+                        <p class="leading-snug  text-xs text-white/50 ">"Was super stressed about my notes, but they wrote and completed everything perfectly. Delivered on time without any issues! "</p>
+                    </div>
             </div>
-            <div class="p-2">this asome service bro ok got it </div>
-          </div></div>
-          <div class="slide"> <img src="http://srv753447.hstgr.cloud/storage/uploads2/banner3.jpg" alt="Image 1"></div>
+          </div>
+
+          <div class="slide">
+            <div class=" border rounded-lg border-secondary h-full flex">
+                    <div class="h-full w-1/2 bg-red-5 shrink-0">
+                        <img class="" src="http://srv753447.hstgr.cloud/storage/uploads2/c2.jpeg" alt="Image 1">
+                    </div>
+                    <div class="text-white p-2 " >
+                        <h1 class="font-semibold capitalize ">Kum****</h1>
+                        <p class="leading-snug  text-xs text-white/50 ">"They wrote and completed my assignments so fast! Lifesaver!"</p>
+                    </div>
+            </div>
+          </div>
+
+          <div class="slide">
+            <div class=" border rounded-lg border-secondary h-full flex">
+                    <div class="h-full w-1/2 bg-red-5 shrink-0">
+                        <img class="" src="http://srv753447.hstgr.cloud/storage/uploads2/c3.jpeg" alt="Image 1">
+                    </div>
+                    <div class="text-white p-2 " >
+                        <h1 class="font-semibold capitalize">Dhan***</h1>
+                        <p class="leading-snug  text-xs text-white/50 ">"I was so nervous about the deadline, but they pulled through! "</p>
+                    </div>
+            </div>
+          </div>
+
+          <div class="slide">
+            <div class=" border rounded-lg border-secondary h-full flex">
+                    <div class="h-full w-1/2 bg-red-5 shrink-0">
+                        <img class="" src="http://srv753447.hstgr.cloud/storage/uploads2/c4.jpeg" alt="Image 1">
+                    </div>
+                    <div class="text-white p-2 " >
+                        <h1 class="font-semibold capitalize">Akas***</h1>
+                        <p class="leading-snug  text-xs text-white/50  ">"These guys are awesome! this really last minute writing app "</p>
+                    </div>
+            </div>
+          </div>
+
+          <div class="slide">
+            <div class=" border rounded-lg border-secondary h-full flex">
+                    <div class="h-full w-1/2 bg-red-5 shrink-0">
+                        <img class="" src="http://srv753447.hstgr.cloud/storage/uploads2/c5.jpeg" alt="Image 1">
+                    </div>
+                    <div class="text-white p-2 " >
+                        <h1 class="font-semibold capitalize">Srey***</h1>
+                        <p class="leading-snug  text-xs text-white/50 ">"No jokes, this service is a game changer. for students for learning new things "</p>
+                    </div>
+            </div>
+          </div>
     
         <!-- Repeat to create the loop -->
-        <div class="slide"><img src="http://srv753447.hstgr.cloud/storage/uploads2/one.webp" alt="Image 1"></div>
-        <div class="slide"><img src="http://srv753447.hstgr.cloud/storage/uploads2/two.webp" alt="Image 2"></div>
-        <div class="slide"><img src="http://srv753447.hstgr.cloud/storage/uploads2/four.webp" alt="Image 3"></div>
-        <div class="slide"><img src="http://srv753447.hstgr.cloud/storage/uploads2/one.webp" alt="Image 4"></div>
-        <div class="slide"><img src="http://srv753447.hstgr.cloud/storage/uploads2/one.webp" alt="Image 5"></div>
+        <div class="slide">
+            <div class=" border rounded-lg border-secondary h-full flex">
+                    <div class="h-full w-1/2 bg-red-5 shrink-0">
+                        <img class="" src="http://srv753447.hstgr.cloud/storage/uploads2/c1.jpg" alt="Image 1">
+                    </div>
+                    <div class="text-white p-2 " >
+                        <h1 class="font-semibold capitalize">chea****</h1>
+                        <p class="leading-snug  text-xs text-white/50 ">"Was super stressed about my notes, but they wrote and completed everything perfectly. Delivered on time without any issues! "</p>
+                    </div>
+            </div>
+          </div>
+
+          <div class="slide">
+            <div class=" border rounded-lg border-secondary h-full flex">
+                    <div class="h-full w-1/2 bg-red-5 shrink-0">
+                        <img class="" src="http://srv753447.hstgr.cloud/storage/uploads2/c2.jpeg" alt="Image 1">
+                    </div>
+                    <div class="text-white p-2 " >
+                        <h1 class="font-semibold capitalize ">Kum****</h1>
+                        <p class="leading-snug  text-xs text-white/50 ">"They wrote and completed my assignments so fast! Lifesaver!"</p>
+                    </div>
+            </div>
+          </div>
+
+          <div class="slide">
+            <div class=" border rounded-lg border-secondary h-full flex">
+                    <div class="h-full w-1/2 bg-red-5 shrink-0">
+                        <img class="" src="http://srv753447.hstgr.cloud/storage/uploads2/c3.jpeg" alt="Image 1">
+                    </div>
+                    <div class="text-white p-2 " >
+                        <h1 class="font-semibold capitalize">Dhan***</h1>
+                        <p class="leading-snug  text-xs text-white/50 ">"I was so nervous about the deadline, but they pulled through! "</p>
+                    </div>
+            </div>
+          </div>
+
+          <div class="slide">
+            <div class=" border rounded-lg border-secondary h-full flex">
+                    <div class="h-full w-1/2 bg-red-5 shrink-0">
+                        <img class="" src="http://srv753447.hstgr.cloud/storage/uploads2/c4.jpeg" alt="Image 1">
+                    </div>
+                    <div class="text-white p-2 " >
+                        <h1 class="font-semibold capitalize">Akas***</h1>
+                        <p class="leading-snug  text-xs text-white/50  ">"These guys are awesome! this really last minute writing app "</p>
+                    </div>
+            </div>
+          </div>
+
+          <div class="slide">
+            <div class=" border rounded-lg border-secondary h-full flex">
+                    <div class="h-full w-1/2 bg-red-5 shrink-0">
+                        <img class="" src="http://srv753447.hstgr.cloud/storage/uploads2/c5.jpeg" alt="Image 1">
+                    </div>
+                    <div class="text-white p-2 " >
+                        <h1 class="font-semibold capitalize">Srey***</h1>
+                        <p class="leading-snug  text-xs text-white/50 ">"No jokes, this service is a game changer. for students for learning new things "</p>
+                    </div>
+            </div>
+          </div>
       </div>
     </div>
   </template>
