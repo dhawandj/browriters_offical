@@ -30,8 +30,9 @@ function goLink() {
       }"
       :navigation="false"
       :modules="[Autoplay, Pagination, Navigation]"
-      class="mySwiper text-black p-2  h-40 sm:h-64 rounded-xl"
+      class="mySwiper text-black p-2  h-44 sm:h-64 rounded-xl"
     >
+      <swiper-slide> <img src="http://srv753447.hstgr.cloud/storage/uploads2/ad1.png" alt=""> </swiper-slide>
       <swiper-slide> <img src="http://srv753447.hstgr.cloud/storage/uploads2/banner11.png" alt=""> </swiper-slide>
       <swiper-slide> <img src="http://srv753447.hstgr.cloud/storage/uploads2/banner8.png" alt=""> </swiper-slide>
       <swiper-slide> <img src="http://srv753447.hstgr.cloud/storage/uploads2/banner9.png" alt=""> </swiper-slide>
