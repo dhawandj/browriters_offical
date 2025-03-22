@@ -6,6 +6,7 @@ import IconBtn from '@/Components/IconBtn.vue';
 import MyFooter from '@/Components/MyFooter.vue';
 import MySwiper from '@/Components/MySwiper.vue';
 import Slider from '@/Components/Slider.vue';
+import { Icon } from '@iconify/vue';
 import { Head, Link } from '@inertiajs/vue3';
 import { ref } from 'vue';
 defineProps(['userCount','jobsCount','booksCount'])
@@ -20,9 +21,10 @@ showBanner.value = true
 
     <div class="bordr-2 mx-auto flex min-h-screen flex-col border-red-500 bg-background text-white">
         <!-- ads banner -->
-        <div v-show="showBanner"  class="sticky  left-0 top-0 z-50 flex w-full justify-between bg-black/45 p-3 backdrop-blur-sm " >
-            <h1 class="text-center capitalize">1st Order First Book writing Free</h1>
-            <span @click="showBanner=false">x</span>
+        <div v-show="showBanner"  class="sticky items-center  left-0 top-0 z-50 flex w-full justify-between bg-black/45 p-3 backdrop-blur-sm " >
+            <h1 class="text-center capitalize font-anton">1st Order First Book writing <span class="text-green-500">Free*</span></h1>
+            <!-- <span @click="showBanner=false">x</span> -->
+            <Icon @click="showBanner=false"  class="mr-2 text-red-400" icon="gg:close-o" width="24" height="24" />
         </div>
         <!-- nav bar -->
         <nav>

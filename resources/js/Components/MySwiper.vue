@@ -34,7 +34,6 @@ function goLink() {
     >
       <swiper-slide> <img src="http://srv753447.hstgr.cloud/storage/uploads2/ad1.png" alt=""> </swiper-slide>
       <swiper-slide> <img src="http://srv753447.hstgr.cloud/storage/uploads2/banner11.png" alt=""> </swiper-slide>
-      <swiper-slide> <img src="http://srv753447.hstgr.cloud/storage/uploads2/banner8.png" alt=""> </swiper-slide>
       <swiper-slide> <img src="http://srv753447.hstgr.cloud/storage/uploads2/banner9.png" alt=""> </swiper-slide>
       <swiper-slide> <img src="http://srv753447.hstgr.cloud/storage/uploads2/banner10.png" alt=""> </swiper-slide>
 
