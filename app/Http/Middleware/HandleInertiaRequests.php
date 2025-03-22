@@ -34,7 +34,7 @@ class HandleInertiaRequests extends Middleware
             ...parent::share($request),
             'auth' => [
                 'user' => $request->user(),
-                'deliveryBoyNumber' => DeliveryBoy::value('phone'),
+                'deliveryBoyNumber' => DeliveryBoy::value('phone')??'no number',
             ],
             'flash' =>[
                 'error'=> fn() => $request->session()->get('error'),

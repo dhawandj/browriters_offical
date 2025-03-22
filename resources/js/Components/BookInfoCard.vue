@@ -62,9 +62,8 @@ const t_options = ref(false);
             <div>
                 <BroTimeLine  :order="order"/>
             </div>
-
             <!-- browriters phone call section -->
-            <a href="tel:+919900856694"  class="flex items-center justify-between rounded-xl bg-secondaryAlt p-3">
+            <a :href="`tel:${$page.props.auth.deliveryBoyNumber}`"  class="flex items-center justify-between rounded-xl bg-secondaryAlt p-3">
                 <div class="flex items-center gap-2">
                     <div class="grid size-10 place-items-center rounded-full border bg-textPrimary">
                         <Icon
