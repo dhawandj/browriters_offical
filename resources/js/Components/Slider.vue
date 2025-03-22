@@ -11,8 +11,13 @@ import MySwiper from './MySwiper.vue';
     </div>
     <div class="slider">
       <div class="slide-track space-x-5">
-          <div class="slide"><img src="http://127.0.0.1:8000/storage/uploads2/banner7.png" alt="Image 2"></div>
           <div class="slide"><img src="http://srv753447.hstgr.cloud/storage/uploads2/banner2.png" alt="Image 3"></div>
+          <div class="slide"><div class="border w-full h-full flex">
+            <div class="h-full w-full  bg-green-400">
+                <img src="http://srv753447.hstgr.cloud/storage/uploads2/banner2.png" alt="">
+            </div>
+            <div class="p-2">this asome service bro ok got it </div>
+          </div></div>
           <div class="slide"> <img src="http://srv753447.hstgr.cloud/storage/uploads2/banner3.jpg" alt="Image 1"></div>
     
         <!-- Repeat to create the loop -->
