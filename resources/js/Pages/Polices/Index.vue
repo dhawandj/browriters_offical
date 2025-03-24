@@ -30,6 +30,10 @@ import { Head, Link } from '@inertiajs/vue3';
                 <p>Terms and conditions</p>
                 <Icon icon="weui:arrow-filled"width="30" height="30"/>
             </Link>
+            <Link :href="route('p.index',{comp:'ShippingDelivery'})"  class="flex justify-between items-center  p-2 hover:opacity-40">
+                <p>Shipping and Delivery</p>
+                <Icon icon="weui:arrow-filled"width="30" height="30"/>
+            </Link>
             <Link :href="route('p.index',{comp:'CancellationRefund'})"  class="flex justify-between items-center  p-2 hover:opacity-40">
                 <p>Cancellation and Refund</p>
                 <Icon icon="weui:arrow-filled"width="30" height="30"/>
