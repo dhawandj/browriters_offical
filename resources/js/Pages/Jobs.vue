@@ -38,7 +38,7 @@ const toastBreakpoints = {
 
 <template>
     <Head title="Jobs" />
-    <div class="relative  h-screen    space-y-10 bg-background text-white    ">
+    <div class="relative  h-full    space-y-10 bg-background text-white    ">
         <!-- nav bar -->
         <nav class="sticky left-0 top-0 flex items-center bg-secondaryAlt/45 p-3 backdrop-blur-sm">
             <Icon
@@ -71,6 +71,9 @@ const toastBreakpoints = {
         <div v-if="$page.props.flash.msg"  class="bg-white mx-5 sm:mx-auto max-w-sm rounded-lg p-2 text-center text-secondaryAlt font-semibold">
             <p>browriters.com (Job)</p>
             <p class="text-secondary">Notified Soon to email ! </p>
+        </div>
+        <div class="pb-20 flex justify-center ">
+                <img class="" src="http://srv753447.hstgr.cloud/storage/uploads2/Component1.svg" alt="">
         </div>
         <Toast :breakpoints="toastBreakpoints" />
 

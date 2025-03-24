@@ -51,7 +51,7 @@ const t_options = ref(false);
 
     <!-- view status drawer -->
     <Drawer
-        class="rounded-3xl rounded-b"
+        class="rounded-3xl rounded-b max-w-xl"
         v-model:visible="t_viewStatus"
         header="Order Status"
         position="bottom"
@@ -125,7 +125,7 @@ const t_options = ref(false);
 
     <!-- options drawer -->
     <Drawer
-        class="rounded-3xl rounded-b"
+        class="rounded-3xl rounded-b max-w-xl"
         v-model:visible="t_options"
         header="Options"
         position="bottom"
@@ -133,7 +133,7 @@ const t_options = ref(false);
     >
         <div class="space-y-5">
             <!-- chat option -->
-            <a  href="https://wa.me/8050859436?text=Hi%20for%20BroWriters" target="_blank"  class="flex items-center justify-between rounded-2xl bg-secondaryAlt p-3">
+            <a  href="https://wa.me/+918050859436?text=Hi%20for%20BroWriters" target="_blank"  class="flex items-center justify-between rounded-2xl bg-secondaryAlt p-3">
                 <div class="flex items-center gap-2">
                     <div
                         class="grid size-10 place-items-center rounded-full border bg-white"

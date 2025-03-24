@@ -43,7 +43,7 @@ const t_order = ref(false);
 
     <!-- order info drawer -->
     <Drawer
-        class="rounded-3xl rounded-b"
+        class="rounded-3xl rounded-b max-w-xl"
         v-model:visible="t_order"
         header="Order Info"
         position="bottom"

@@ -58,7 +58,7 @@ function discoutCondition(book) {
                     <p class="capitalize relative  ">{{ book.name }} </p>
                 </div>
                 <input
-                    class="h-7 w-11 rounded-md bg-secondaryAlt text-center text-white"
+                    class="h-7 w-11 p-1 rounded-md bg-secondaryAlt text-center text-white"
                     type="number"
                     v-model="book.pages"
                 />

@@ -30,7 +30,7 @@ function goLink(urlname,param=null) {
       }"
       :navigation="false"
       :modules="[Autoplay, Pagination, Navigation]"
-      class="mySwiper text-black p-2  h-44 sm:h-64 rounded-xl"
+      class="mySwiper text-black p-2 min-h-44  h-44 sm:h-64 md:h-full rounded-xl"
     >
       <swiper-slide @click="goLink('billing','assignment')" > <img src="http://srv753447.hstgr.cloud/storage/uploads2/ad1.png" alt=""> </swiper-slide>
       <swiper-slide @click="goLink('billing','mixed')" > <img src="http://srv753447.hstgr.cloud/storage/uploads2/banner11.png" alt=""> </swiper-slide>

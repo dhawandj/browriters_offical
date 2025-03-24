@@ -19,7 +19,7 @@ showBanner.value = true
 <template>
     <Head title="home" />
 
-    <div class="bordr-2 mx-auto flex min-h-screen flex-col border-red-500 bg-background text-white">
+    <div class="bordr-2 mx-auto flex h-full flex-col border-red-500 bg-background text-white">
         <!-- ads banner -->
         <div v-show="showBanner"  class="sticky items-center  left-0 top-0 z-50 flex w-full justify-between bg-black/45 p-3 backdrop-blur-sm " >
             <h1 class="text-center capitalize font-anton">1st Order First Book writing <span class="text-green-500">Free*</span></h1>
@@ -36,7 +36,7 @@ showBanner.value = true
             </h1>
         </nav>
 
-        <main class="mx-2 grid-cols-2 space-y-9 p-1 sm:grid ">
+        <main class="mx-2 grid-cols-2 space-y-9 p-1 sm:grid max-w-7xl sm:mx-auto ">
             <div class="p-2">
                 <!-- <Carousel /> -->
                  <MySwiper />
@@ -73,7 +73,7 @@ showBanner.value = true
             </div>
         </main>
 
-        <footer>
+        <footer class="max-w-7xl mx-auto w-full">
             <MyFooter />
         </footer>
     </div>

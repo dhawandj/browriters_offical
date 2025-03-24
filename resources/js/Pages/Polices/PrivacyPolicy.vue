@@ -21,7 +21,7 @@ import { Head } from '@inertiajs/vue3';
             <p class="flex-grow text-center">Privacy Polices</p>
         </nav>
 
-     <div class="container mx-auto p-4 text-gray-800">
+     <div class="container mx-auto p-4 text-gray-800 ">
     <div class="bg-white rounded-2xl shadow-lg p-6 md:p-12">
       <h1 class="text-3xl font-bold mb-4">Privacy Policy</h1>
       <p class="text-sm text-gray-500 mb-6">Last updated: January 24, 2025</p>

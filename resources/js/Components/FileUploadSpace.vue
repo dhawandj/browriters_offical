@@ -58,7 +58,7 @@ const submit = () => {
     </div>
     <!-- options drawer her -->
     <Drawer
-        class="rounded-3xl rounded-b"
+        class="rounded-3xl rounded-b max-w-xl"
         v-model:visible="t_options"
         header="Book Options"
         position="bottom"
