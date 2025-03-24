@@ -21,8 +21,21 @@ import { Head } from '@inertiajs/vue3';
             <p class="flex-grow text-center">Contact Us</p>
         </nav>
         <div class="mx-5 max-w-screen-sm sm:mx-auto  ">
+            <div class="mx-5 max-w-screen-sm sm:mx-auto  mb-5 " >
             <h1 class="text-3xl font-bold mb-2">Contact Us</h1>
              <p class=" font-semibold text-gray-500 mb-6">Don't hesitate to contact us whether you have a suggestion on our improvement, a complain to discuss or an issue to solve.</p>
+
+             <div class="space-y-5">
+                 <h2 class="text-2xl font-bold mb-2">Contact Information</h2>
+                 <p>If you have any questions, suggestions, or require assistance, feel free to reach out to us:</p>
+                 <ul class="list-disc ml-6">
+                     <li><strong>Phone:</strong> 8050859436 (Available 24/7)</li>
+                     <li><strong>Support Email:</strong> support@browriters.com</li>
+                 </ul>
+             </div>
+        </div>
+            <!-- <h1 class="text-3xl font-bold mb-2">Contact Us</h1>
+             <p class=" font-semibold text-gray-500 mb-6">Don't hesitate to contact us whether you have a suggestion on our improvement, a complain to discuss or an issue to solve.</p> -->
 
              <div class="grid grid-cols-2 gap-2 p-1">
                 <a  href="tel:8050859436" class="bg-white h-36 hover:opacity-35  text-black rounded-3xl flex flex-col  gap-1 items-center  justify-center">
